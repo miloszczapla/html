@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
+      .content{
+        display: flex;
+        flex-basis: 60vw;
+
+      }
+      header ,footer{
+        flex-basis: 20vw;
+        background-color: #666600;
+
+      }
+      main{
+        flex-grow: 4;
+        background-color: brown;
+      }
+      nav{
+        flex-grow: 0.75;
+      }
+      aside{
+        flex-grow: 1.5;
+        background-color: blue;
+      }
+    </style>
+    </head>
+  <body>
+    <div class="container">
+        <header class="column">
+	         footer
+	      </header>
+	      <div class="content">
+			     <main class="">main
+			     </main>
+			     <nav class="">menu
+			     </nav>
+		       <aside class="">prawo
+			     </aside>
+	        </div>
+	      <footer class="column">
+	       header
+	      </footer>
+    </div>
+  </body>
+</html>
